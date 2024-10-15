@@ -1,0 +1,21 @@
+[package]
+name = "ReCoopGame"
+version = "0.0.1"
+
+[addresses]
+recoop = '2a3a5ea6496df2d914003a8f98d1869e845592c43e6cff5f9171c11806462a3f'
+
+[dependencies.AptosToken]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-token'
+
+[dependencies.AptosStdlib]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-stdlib'
+
+[dependencies.AptosTokenObjects]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-token-objects'
